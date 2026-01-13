@@ -124,3 +124,26 @@ for (let i = 0; i < serveurs.length; i++) {
 }
 
 console.log("Total : " + totalserveur ++)
+
+
+
+
+
+
+console.log("-------TP DOM 13/01/2026-------")
+
+console.log("-------PHASE 1-------")
+
+
+
+console.log("Script chargé !")
+
+
+const titre = document.querySelector('#super-titre');
+
+titre.addEventListener('click', () => {
+  console.log('Bouton cliqué !')
+  titre.textContent = "Vous avez cliqué sur le titre !"
+})
+
+console.log("-------PHASE 2-------")
